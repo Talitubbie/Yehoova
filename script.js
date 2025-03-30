@@ -9,12 +9,10 @@ document.getElementById('yenerator-btn').addEventListener('click', function() {
     });
 
     // Placeholder for fetching a random tweet
-    // Since I can't access https://yzy-twts.com/, you'll need to implement the logic to fetch tweets
-    // For now, I'll simulate a random tweet display
     const sampleTweets = [
         "I am the greatest artist of all time. #Yehoova",
         "Imma let you finish, but $Hoova is the best memecoin ever!",
-        "Yeezy taught me. Now $Hoova teaches the world.",
+        "Ye taught me. Now $Hoova teaches the world.",
         "I feel like Pablo, but with more $Hoova vibes.",
         "Yehoova is the future. Believe that."
     ];
