@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a1a, #2c003e);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Meme Section */
+.meme-section {
+    margin-bottom: 40px;
+}
+
+.main-meme {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Yenerator Section */
+.yenerator-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff00ff;
+    margin-bottom: 10px;
+}
+
+.yenerator-btn {
+    background: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.7);
+}
+
+.yenerator-btn:hover {
+    background: #cc00cc;
+    transform: scale(1.05);
+}
+
+.tweet-display {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #ddd;
+}
+
+/* Social Section */
+.social-section {
+    margin-top: 40px;
+}
+
+.twitter-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #ff00ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.twitter-link:hover {
+    color: #cc00cc;
+}
+
+.twitter-icon {
+    width: 30px;
+    height: 30px;
+}
