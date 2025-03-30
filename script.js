@@ -16,10 +16,10 @@ document.getElementById('yenerator-btn').addEventListener('click', function() {
         "I love sleep; it's my favorite.",
         "My greatest pain in life is that I will never be able to see myself perform live."
         "I'm rich, baby! 💰",
-    "Money makes the world go round.",
-    "Show me the money!",
-    "Life is short, spend it wisely.",
-    "Keep calm and cash on!"
+        "Money makes the world go round.",
+        "Show me the money!",
+        "Life is short, spend it wisely.",
+        "Keep calm and cash on!"
     ];
 
     const randomTweet = sampleTweets[Math.floor(Math.random() * sampleTweets.length)];
