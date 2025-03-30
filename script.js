@@ -8,13 +8,13 @@ document.getElementById('yenerator-btn').addEventListener('click', function() {
         console.error("Error playing sound:", error);
     });
 
-    // Placeholder for fetching a random tweet
+    // Predefined tweets
     const sampleTweets = [
-        "I am the greatest artist of all time. #Yehoova",
-        "Imma let you finish, but $Hoova is the best memecoin ever!",
-        "Ye taught me. Now $Hoova teaches the world.",
-        "I feel like Pablo, but with more $Hoova vibes.",
-        "Yehoova is the future. Believe that."
+        "I feel like I'm too busy writing history to read it.",
+        "I am the number one human being in music. That means any person in the world who listens to my music or writes about me is just a total idiot.",
+        "I still think I am the greatest.",
+        "I love sleep; it's my favorite.",
+        "My greatest pain in life is that I will never be able to see myself perform live."
     ];
 
     const randomTweet = sampleTweets[Math.floor(Math.random() * sampleTweets.length)];
