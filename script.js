@@ -14,8 +14,8 @@ document.getElementById('yenerator-btn').addEventListener('click', function() {
         "I am the number one human being in music. That means any person in the world who listens to my music or writes about me is just a total idiot.",
         "I still think I am the greatest.",
         "I love sleep; it's my favorite.",
-        "My greatest pain in life is that I will never be able to see myself perform live."
-        "I'm rich, baby!",
+        "My greatest pain in life is that I will never be able to see myself perform live.",
+        "I'm rich, baby! ",
         "Money makes the world go round.",
         "Show me the money!",
         "Life is short, spend it wisely.",
